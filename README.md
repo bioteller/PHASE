@@ -12,7 +12,7 @@ Hisat2 >= 2.1.0 is recommanded strongly for I have tested on CentOS7.
 
 To install PHASE v1.0
 
-####`tar -zvcf hisat_Alignment.tar.gz`
+#### `tar -zvcf hisat_Alignment.tar.gz`
 
 ### Reference index file
 ========================
@@ -22,7 +22,7 @@ To install PHASE v1.0
 ### How to use it correctly?
 ============================
 
-<table><tbody><tr><td bgcolor="black"><font color="green">$ bash hisat2_Alignment.sh configure.set</font></td></tr></table>
+#### `$ bash hisat2_Alignment.sh configure.set`
 
 1. Copy and edit the configuration file *'configure.set'* or any other file_name you like.
 2. Run the script above, use your configuration file as unique parameter.
@@ -30,23 +30,22 @@ To install PHASE v1.0
 ### *configure.set* (or other file_name you like)
 ===========================================
 
-`
-program_Name=hisat2
+> program_Name=hisat2
 
-data_path=/home/lxb/MNT/nfs2_ND/2018/YAN/ATAC-seq
+> data_path=/home/lxb/MNT/nfs2_ND/2018/YAN/ATAC-seq
 
-file_ext=fq.gz
+> file_ext=fq.gz
 
-R1_flag=_R1.
+> R1_flag=_R1.
 
-R2_flag=_R2.
+> R2_flag=_R2.
 
-Thread=5
+> Thread=5
 
-index=/home/lxb/Applications/indexes/ht2/grcm38_snp_tran/genome_snp_tran
-`
+> index=/home/lxb/Applications/indexes/ht2/grcm38_snp_tran/genome_snp_tran
 
-*<font color="red">NOTE:</font>* DO NOT leave any blanks bwteen "=" and your input. DO NOT change the varients name.
+
+* <font color="red"> NOTE: </font> * DO NOT leave any blanks bwteen "=" and your input. DO NOT change the varients name.
 1. *program_Name:* Provide the path of HISAT2 programme
 2. *data_path:* Link to clean_data folder. The user need leave at least one folder for samples with input files.
 3. *file_ext:* Extension part of clean_data, usually "fastq.gz" but sometimes "fq.gz" so pipeline need this info here.
