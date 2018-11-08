@@ -11,7 +11,8 @@ The PHASE v1.0 pipeline requirs the following depencies:
 Hisat2 >= 2.1.0 is recommanded strongly for I have tested on CentOS7.
 
 To install PHASE v1.0
-(```) tar -zvcf hisat_Alignment.tar.gz(```)
+
+####`tar -zvcf hisat_Alignment.tar.gz`
 
 ### Reference index file
 ========================
@@ -21,13 +22,14 @@ To install PHASE v1.0
 ### How to use it correctly?
 ============================
 
-<td bgcolor="black"><font color="green">$bash hisat2_Alignment.sh configure.set</font></td>
+<table><tbody><tr><td bgcolor="black"><font color="green">$ bash hisat2_Alignment.sh configure.set</font></td></tr></table>
 
 1. Copy and edit the configuration file *'configure.set'* or any other file_name you like.
 2. Run the script above, use your configuration file as unique parameter.
 
 ### *configure.set* (or other file_name you like)
 ===========================================
+
 (```)
 program_Name=hisat2
 data_path=/home/lxb/MNT/nfs2_ND/2018/YAN/ATAC-seq
