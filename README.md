@@ -30,15 +30,21 @@ To install PHASE v1.0
 ### *configure.set* (or other file_name you like)
 ===========================================
 
-(```)
+`
 program_Name=hisat2
+
 data_path=/home/lxb/MNT/nfs2_ND/2018/YAN/ATAC-seq
+
 file_ext=fq.gz
+
 R1_flag=_R1.
+
 R2_flag=_R2.
+
 Thread=5
+
 index=/home/lxb/Applications/indexes/ht2/grcm38_snp_tran/genome_snp_tran
-(```)
+`
 
 *<font color="red">NOTE:</font>* DO NOT leave any blanks bwteen "=" and your input. DO NOT change the varients name.
 1. *program_Name:* Provide the path of HISAT2 programme
